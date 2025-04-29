@@ -18,7 +18,7 @@ The differentially heated cavity problem involves a two-dimensional square cavit
   - Adaptive time stepping based on residual evolution
 
 - **Numerical Stabilization**:  
-  - Under-relaxation for velocity (\( u, v \)) and temperature (\( T \)) fields  
+  - Under-relaxation for velocity **u**, **v** and temperature **T** fields  
   - Temperature "freezing" when residual stagnation is detected
 
 - **Convergence Monitoring**:  
@@ -28,8 +28,8 @@ The differentially heated cavity problem involves a two-dimensional square cavit
 - **Post-Processing Outputs**:  
   - Field data for temperature, velocities, and pressure  
   - Key quantities for Grid Independence Study:
-    - Average Nusselt number \( \overline{Nu} \)
-    - Maximum velocity components \( u_{\text{max}} \), \( v_{\text{max}} \)
+    - Average Nusselt number **Nu**
+    - Maximum velocity components **u_max**, **v_max**
 
 - **Post-Processing and Plotting**:  
   - All colormaps, residual plots, and grid independence graphs were generated using **Python** via the script `Diff_Heat_Cav_Plots.py`
